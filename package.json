@@ -15,5 +15,16 @@
   "keywords": ["omp-plugin", "oh-my-pi", "skill", "skills", "extension"],
   "omp": {
     "extensions": ["./index.ts"]
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "@oh-my-pi/pi-coding-agent": "*",
+    "@oh-my-pi/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@oh-my-pi/pi-coding-agent": "18.1.2",
+    "@oh-my-pi/pi-tui": "18.1.2"
   }
 }
