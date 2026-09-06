@@ -1,0 +1,19 @@
+{
+  "name": "skill-tool-omp",
+  "version": "0.1.0",
+  "description": "Claude-compatible Skill tool for Oh My Pi (OMP).",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/nguyenvinhloc1997/skill-tool-omp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenvinhloc1997/skill-tool-omp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenvinhloc1997/skill-tool-omp/issues"
+  },
+  "keywords": ["omp-plugin", "oh-my-pi", "skill", "skills", "extension"],
+  "omp": {
+    "extensions": ["./index.ts"]
+  }
+}
