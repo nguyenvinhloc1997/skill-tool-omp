@@ -1,5 +1,5 @@
 import type { ExtensionAPI } from "@oh-my-pi/pi-coding-agent";
-import { getActiveSkills } from "@oh-my-pi/pi-coding-agent/extensibility/skills";
+import { getActiveSkills } from "@oh-my-pi/pi-coding-agent";
 import { rewriteSkillCatalogHint } from "./prompt.ts";
 import { renderSkillCall, renderSkillResult } from "./render.ts";
 import { runSkillTool } from "./run.ts";

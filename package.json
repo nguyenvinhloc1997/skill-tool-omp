@@ -1,6 +1,6 @@
 {
   "name": "skill-tool-omp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Claude-compatible Skill tool for Oh My Pi (OMP).",
   "type": "module",
   "license": "MIT",

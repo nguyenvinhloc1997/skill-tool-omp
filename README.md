@@ -54,7 +54,7 @@ bun install
 bun test
 ```
 
-Dev-depends on `@oh-my-pi/pi-coding-agent` 18.1.2.
+Dev-depends on `@oh-my-pi/pi-coding-agent` for types and tests. Runtime imports must use the package root (`@oh-my-pi/pi-coding-agent`, `@oh-my-pi/pi-tui`) so the compiled OMP host can rewrite them; deep subpaths fall through to a local `node_modules` copy and break (`Cannot find package '@oh-my-pi/pi-natives'`).
 
 ## License
 

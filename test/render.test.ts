@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, test } from "bun:test";
-import { initTheme, theme } from "@oh-my-pi/pi-coding-agent/modes/theme/theme";
+import { initTheme, theme } from "@oh-my-pi/pi-coding-agent";
 import { renderSkillCall, renderSkillResult } from "../render.ts";
 
 function painted(component: { render: (width: number) => string[] }): string {
